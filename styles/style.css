@@ -93,8 +93,8 @@ h2 {
     display: block;
     width: 148px;
     height: 105px;
-    padding-left: 9px;
     padding-right: 9px;
+    padding-left: 9px;
 }
 
 .header__logo-image {
@@ -156,9 +156,6 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.cover__description {
     color: white;
     font-weight: 400;
     font-size: 22px;
@@ -202,11 +199,16 @@ h2 {
 }
 
 .lots__card-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
     align-items: center;
     gap: 25px;
     margin-bottom: 30px;
+}
+
+.lots__card-list-item {
+    display: flex;
+    width: 334px;
+    min-height: 596px;
 }
 
 .card-link {
@@ -219,7 +221,7 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 596px;
+    height: 100%;
     padding: 48px 40px;
 }
 
