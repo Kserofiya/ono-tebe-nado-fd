@@ -4,8 +4,15 @@
   box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
   width: 1100px;
+  min-height: 100vh;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
 }
@@ -23,6 +30,10 @@ li,
 blockquote {
   margin: 0;
   padding: 0;
+}
+
+ul li {
+    list-style: none;
 }
 
 a {
